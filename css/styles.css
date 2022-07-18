@@ -160,6 +160,8 @@ body {
 /* ==================== HERO ==================== */
 .hero {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-container {
     flex-wrap: wrap;
@@ -181,7 +183,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        padding-top: 195px;
 }
 .modal-btn {
     color: #FFFFFF;
@@ -205,7 +206,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 205px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -246,6 +246,9 @@ flex-basis: calc(100% - 60px / 4);
     gap: var(--item-gap); 
     border: none; 
 }
+.about {
+    padding-top: 0;
+}
 /* ==================== /ABOUT ==================== */
 
 /* ==================== TEAM ==================== */
@@ -269,7 +272,6 @@ flex-basis: calc(100% - 60px / 4);
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        margin-top: 30px;
         margin-bottom: 10px;
 }
 .team-member-position {
@@ -278,16 +280,20 @@ flex-basis: calc(100% - 60px / 4);
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
-        padding-bottom: 30px;
+}
+.team-member-text-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /* ==================== /TEAM ==================== */
 
 /* ==================== FOOTER ==================== */
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-footer-box {
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 .address-link {
@@ -298,6 +304,7 @@ flex-basis: calc(100% - 60px / 4);
          letter-spacing: 0.03em;
          color: #FFFFFF;
 }
+
 .address-link:hover,
 .address-link:focus {
     color: var(--accent-color);
@@ -326,8 +333,8 @@ flex-basis: calc(100% - 60px / 4);
 .footer-contact-phone-number:focus {
     color: var(--accent-color);
 }
-.footer-contact-box {
-    padding-bottom: 60px;
+.contacts-list-item:not(:last-of-type) {
+    margin-bottom: 9px;
 }
 
 /* ==================== /FOOTER ==================== */
@@ -337,6 +344,7 @@ flex-basis: calc(100% - 60px / 4);
     display: flex;
     justify-content: center;
     gap: 8px; 
+    margin-bottom: 50px;
 }
 .portfolio-filter-item .portfolio-filter-btn {
     font-family: inherit;
@@ -349,7 +357,7 @@ flex-basis: calc(100% - 60px / 4);
         background-color: #F5F4FA;
         border: none;
         border-radius: 4px;
-        margin-bottom: 50px;
+        padding: 6px 22px;
 }
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
@@ -372,7 +380,6 @@ flex-basis: calc(100% - 60px / 4);
         line-height: 2.00;
         letter-spacing: 0.06em;
         color: #212121;
-        padding-top: 20px;
         margin-bottom: 4px;
 }
 .project-description {
@@ -385,8 +392,6 @@ flex-basis: calc(100% - 60px / 4);
 .project-box {
     border: 1px solid rgba(238, 238, 238, 1);
     border-top: none;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
 }
 /* ==================== /PORTFOLIO ==================== */
